@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+
+}
+body{
+	font-size: 16px;
+	color: #000;
+	background-color:#FFE4E1;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/***Header***/
+#header-nav
+{
+	background-color:#800000;
+	border-radius: 0;
+	border: 0;
+	margin: 0;
+
+}
+.navbar-brand{
+	padding-top: 0;
+
+}
+.navbar-brand h1{/*Restaurant Name*/
+	font-family: Arial, Helvetica, serif;
+	color: #fff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
+	margin-top: 5px;
+	margin-bottom: 0;
+	line-height: 1.80;
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration: none;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list p{
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+#nav-list a:hover{
+	
+	background:#E80000;
+}	
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -35px;
+}
+/* END HEADER*/
+
+/* Home page*/
+div > h1{
+	color: #990000;
+	text-shadow: 1px 1px black;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 70px;
+}
+section{
+	width: 100%;
+	background-color: #990000;
+	height: auto;
+	padding: 10px;
+	border: 1px solid black;
+	margin-bottom: 15px;
+	font-family: Helvetica;
+	color: white;
+	position: relative;
+	overflow: auto;
+	box-shadow: 1px 1px 8px 2px #800000;/*offset-x,offset-y, blur-radius, spread-radius*/
+}
+div > h3{
+	text-align: center;
+	font-weight: bold;
+	font-size: 32px;
+}
+section > p{
+	font-style: italic;
+	text-shadow: 1px 1px #black;
+}
